@@ -73,7 +73,7 @@ project-root/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/healthcare-clinic-website.git
+   git clone https://github.com/YB122/Clinic.git
    cd healthcare-clinic-website
    ```
 
