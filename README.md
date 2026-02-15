@@ -173,7 +173,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **[Your Name]**
-- GitHub: [@yourusername](YB122)
+- GitHub: [YB122](@YB122)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/youssef-benyamine-b55a81219/)
 
 ## 🙏 Acknowledgments
