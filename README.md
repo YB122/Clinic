@@ -173,8 +173,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **[Your Name]**
-- GitHub: [@yourusername]([https://github.com/yourusername](https://github.com/YB122))
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/youssef-benyamine-b55a81219/)
+- GitHub: [@yourusername](YB122)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/youssef-benyamine-b55a81219/)
 
 ## 🙏 Acknowledgments
 
@@ -187,7 +187,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 For questions or feedback, please reach out:
 - Email: youssefbenyamine2eme@gmail.com
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/youssef-benyamine-b55a81219/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/youssef-benyamine-b55a81219/)
 
 ---
 
