@@ -1,0 +1,1410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="shadow navbar navbar-expand-lg position-fixed w-100 z-3">
+      <div class="container">
+        <a class="navbar-brand text-dark fs-1 Montserratfont" href="#"
+          >Clinic</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 latofont">
+            <li class="nav-item mymain">
+              <a
+                class="nav-link active text-primary p-3"
+                id="my-home"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mymain">
+              <a class="nav-link p-3" href="#">About</a>
+            </li>
+            <li class="nav-item mymain">
+              <a class="nav-link p-3" href="#">Departments</a>
+            </li>
+            <li class="nav-item mymain">
+              <a class="nav-link p-3" href="#">Services</a>
+            </li>
+            <li class="nav-item mymain">
+              <a class="nav-link p-3" href="#">Doctors</a>
+            </li>
+            <li class="nav-item dropdown p-2 mymain">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown p-2 mymain">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mymain">
+              <a class="nav-link p-3" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header>
+      <div class="container pb-5">
+        <div class="content row justify-content-around flex-row h-100">
+          <div class="datacontent col-lg-6 g-5">
+            <h1 class="fs-1 Montserratfont fw-bolder">
+              Excellence in <span>Healthcare</span> With Compassionate Care
+            </h1>
+            <p class="pt-2 fs-6 text-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+            <div class="numberdata row pb-5 justify-content-start flex-row">
+              <div class="years col-4">
+                <span class="fs-1 Montserratfont">15+</span>Years Experience
+              </div>
+              <div class="patients col-4">
+                <span class="fs-1 Montserratfont">5000+</span>Patients Treated
+              </div>
+              <div class="medical col-4">
+                <span class="fs-1 Montserratfont">50+</span>Medical Experts
+              </div>
+            </div>
+            <div class="button pb-5">
+              <button
+                class="btn btn-primary rounded-5 p-3 fw-bold px-4"
+                type="button"
+              >
+                Book Appointment
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-primary fw-bold px-4 rounded-5 p-3"
+              >
+                <i class="fa-solid fa-circle-play"></i>Watch Our Story
+              </button>
+            </div>
+            <div
+              class="row p-2 Emergency bg-white border border-1 border-dark-subtle rounded-4"
+            >
+              <span class="col-2 p-3"
+                ><i
+                  class="fa-solid fa-phone fa-beat fa-2xl"
+                  style="color: #165cdd"
+                ></i
+              ></span>
+              <div class="col-10 p-2">
+                <div>
+                  <small class="text-secondary">Emergency Hotline</small>
+                </div>
+                <div><strong>+1 (555) 911-2468</strong></div>
+              </div>
+            </div>
+          </div>
+          <div class="imagedocotor col-lg-6 g-5 h-100">
+            <div class="staff-10 position-relative">
+              <img
+                src="./images/staff-10.webp"
+                class="w-100 rounded-4 shadow"
+                alt=""
+              />
+              <div class="layers position-absolute top-0 start-0 w-100 h-100">
+                <div class="contentall position-relative h-100 w-100">
+                  <div
+                    class="content1 position-absolute row flex-row justify-content-around bg-white shadow-lg rounded-5 mt-3"
+                  >
+                    <span class="col-3 p-3 align-self-center"
+                      ><i
+                        class="fa-regular d-inline fa-calendar-check fa-2xl"
+                        style="color: #165cdd"
+                      ></i
+                    ></span>
+                    <div class="innercontent col-9 py-3">
+                      <h6 class="Montserratfont">Next Available</h6>
+                      <p>Today 2:30 PM</p>
+                      <small>Dr. Sarah Johnson</small>
+                    </div>
+                  </div>
+                  <div
+                    class="content2 position-absolute bg-white p-3 text-center rounded-4 shadow-lg"
+                  >
+                    <div class="stat5 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="fw-bold fs-4 d-block Montserratfont"
+                      >4.9/5</span
+                    >
+                    <small>1,234 Reviews</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- buttonreturn -->
+
+    <!-- Advanced Medicine -->
+    <div class="AdvancedMedicine my-5 pb-5 ">
+      <div class="container">
+        <div class="row">
+          <div class="para col-lg-6 g-5">
+            <h2 class="Montserratfont fs-2 fw-light">
+              Compassionate Care, Advanced Medicine
+            </h2>
+            <p class="text-secondary lh-sm fw-light fs-5">
+              For over two decades, we've been dedicated to providing
+              exceptional healthcare that combines cutting-edge medical
+              technology with the personal touch our patients deserve.
+            </p>
+            <p class="text-secondary lh-base fs-5">
+              Our multidisciplinary team of specialists works collaboratively to
+              ensure every patient receives comprehensive care tailored to their
+              unique needs. From preventive services to complex procedures, we
+              maintain the highest standards of medical excellence while
+              fostering an environment of trust and healing.
+            </p>
+            <div
+              class="AdvancedMedicinedata row pb-5 text-center justify-content-evenly"
+            >
+              <div class="patients col-4">
+                <span class="fs-1 fw-light">15000+</span>Patients Served
+              </div>
+              <div class="years col-4">
+                <span class="fs-1 fw-light">25+</span>Years of Excellence
+              </div>
+              <div class="medical col-4">
+                <span class="fs-1 fw-light">50+</span>Medical Specialists
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg px-3">
+              Learn More About Us
+            </button>
+          </div>
+          <div class="AdvancedMedicineimage  col-lg-6 g-5 position-relative  overflow-hidden ">
+            <img
+              src="./images/facilities-9.webp"
+              alt=""
+              class="w-100 shadow rounded-3 "
+            />
+            <div class="layers position-absolute top-0 w-100 h-100">
+              <div class="contentall position-relative w-100 h-100">
+                <div
+                  class="content111 position-absolute bg-primary p-3 text-center rounded-3 text-white shadow"
+                >
+                  <span class="fw-bold fs-4 d-block">25+</span>
+                  <small>Years of Trusted Care</small>
+                </div>
+                <div
+                  class="content222 position-absolute row flex-row bg-white p-1 ms-3 rounded-3 shadow"
+                >
+                  <span class="text-primary d-inline rounded-circle col-3 fs-1"
+                    ><i class="fa-solid fa-heart-pulse"></i
+                  ></span>
+                  <div class="c col-9">
+                    <h6 class="Montserratfont">24/7 Emergency Care</h6>
+                    <small class="fs-6 fw-light">
+                      Always here when you need us most
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured -->
+    <div class="Featured py-5">
+      <div class="container lh-lg">
+        <div class="FeaturedDepartments text-center">
+          <h2 class="position-relative Montserratfont">Featured Departments</h2>
+          <p class="pt-3 text-secondary">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <div class="cards row h-auto">
+          <div class="card1 col-lg-6 g-5">
+            <div class="card rounded-5 shadow">
+              <div class="card-body ms-3 order-2 order-lg-2">
+                <span
+                  class="card-title text-primary fw-bold rounded-5 px-3 py-2 bg-opacity-10 bg-primary"
+                  >Specialized Care</span
+                >
+                <h2 class="mt-3 fw-light Montserratfont">
+                  Cardiovascular Medicine
+                </h2>
+                <p class="card-text text-secondary">
+                  Advanced diagnostic imaging and interventional procedures for
+                  comprehensive heart health management with personalized
+                  treatment protocols.
+                </p>
+                <ul class="cardlist">
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-circle-check pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    ><small>24/7 Emergency Cardiac Care</small>
+                  </li>
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-circle-check pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    ><small>Minimally Invasive Procedures</small>
+                  </li>
+                </ul>
+                <a href="" class="text-primary text-decoration-none fs-6"
+                  >Explore Cardiology
+                  <span
+                    ><i
+                      class="fa-solid fa-arrow-right-long"
+                      style="color: #165cdd"
+                    ></i></span
+                ></a>
+              </div>
+              <div class="inner position-relative order-1 order-lg-3 overflow-hidden">
+                <img
+                  src="./images/cardiology-1.webp "
+                  class="card-img-top rounded-5  "
+                  alt="..."
+                />
+                <div class="position-absolute layers innerph w-100 h100">
+                  <span class="bg-white rounded-circle text-primary fs-1"
+                    ><i class="fa-solid fa-heart-pulse"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card2 col-lg-6 g-5">
+            <div class="card rounded-5 shadow">
+              <div class="card-body ms-3">
+                <span
+                  class="card-title text-primary fw-bold rounded-5 px-3 py-2 bg-opacity-10 bg-primary"
+                  >Expert Care</span
+                >
+                <h2 class="mt-3 fw-light Montserratfont">
+                  Neurological Sciences
+                </h2>
+                <p class="card-text text-secondary">
+                  Cutting-edge neuroimaging and neurosurgical expertise for
+                  complex brain and spinal cord conditions with innovative
+                  treatment approaches.
+                </p>
+                <ul class="cardlist">
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-circle-check pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    ><small>Advanced Brain Imaging</small>
+                  </li>
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-circle-check pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    ><small>Robotic Surgery</small>
+                  </li>
+                </ul>
+                <a href="" class="text-primary text-decoration-none fs-6"
+                  >Explore Neurology
+                  <span
+                    ><i
+                      class="fa-solid fa-arrow-right-long"
+                      style="color: #165cdd"
+                    ></i></span
+                ></a>
+              </div>
+              <div class="inner position-relative overflow-hidden">
+                <img
+                  src="./images/neurology-4.webp"
+                  class="card-img-top rounded-5"
+                  alt="..."
+                />
+                <div class="position-absolute layers innerph w-100 h100">
+                  <span class="bg-white rounded-circle text-primary fs-1"
+                    ><i class="fa-solid fa-microchip"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cards -->
+    <div class="threecards py-5">
+      <div class="container">
+        <div class="threecarddata row">
+          <div class="card13 col-lg-4 text-center g-5 lh-lg">
+            <div class="card py-5">
+              <div class="card-body">
+                <span class="rounded-circle w-100 h-100 mb-5 fs-1"
+                  ><i
+                    class="fa-solid fa-shield-halved fa-2xl"
+                    style="color: #165cdd"
+                  ></i
+                ></span>
+                <h5 class="card-title py-3 mt-3 Montserratfont">
+                  Orthopedic Surgery
+                </h5>
+                <small class="py-3"
+                  >Comprehensive musculoskeletal care utilizing advanced
+                  arthroscopic techniques and joint replacement
+                  procedures.</small
+                >
+                <ul class="list-unstyled py-3">
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right-long pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    >Sports Medicine
+                  </li>
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right-long pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    >Joint Replacement
+                  </li>
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right-long pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    >Spine Surgery
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="card-link text-decoration-none text-primary fw-bold py-3"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card23 col-lg-4 text-center g-5 lh-lg">
+            <div class="card py-5">
+              <div class="card-body">
+                <span class="rounded-circle w-100 h-100 mb-5 fs-1"
+                  ><i
+                    class="fa-solid fa-user-group fa-2xl"
+                    style="color: #165cdd"
+                  ></i
+                ></span>
+                <h5 class="card-title py-3 mt-3 Montserratfont">
+                  Pediatric Care
+                </h5>
+                <small class="py-3"
+                  >Child-centered healthcare services from newborn to
+                  adolescence with family-focused treatment approaches.</small
+                >
+                <ul class="list-unstyled py-3">
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right-long pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    >Neonatal Intensive Care
+                  </li>
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right-long pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    >Developmental Pediatrics
+                  </li>
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right-long pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    >Pediatric Surgery
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="card-link text-decoration-none text-primary fw-bold py-3"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card33 col-lg-4 text-center g-5 lh-lg">
+            <div class="card py-5">
+              <div class="card-body">
+                <span class="rounded-circle w-100 h-100 mb-5 fs-1"
+                  ><i
+                    class="fa-solid fa-chart-line fa-2xl"
+                    style="color: #165cdd"
+                  ></i
+                ></span>
+                <h5 class="card-title py-3 mt-3 Montserratfont">
+                  Cancer Treatment
+                </h5>
+                <small class="py-3"
+                  >Multidisciplinary oncology program offering personalized
+                  cancer care with latest therapeutic innovations.</small
+                >
+                <ul class="list-unstyled py-3">
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right-long pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    >Precision Medicine
+                  </li>
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right-long pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    >Immunotherapy
+                  </li>
+                  <li>
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right-long pe-2"
+                        style="color: #165cdd"
+                      ></i></span
+                    >Radiation Oncology
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="card-link text-decoration-none text-primary fw-bold py-3"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- one card -->
+    <div class="onecard py-5">
+      <div class="container">
+        <div class="card">
+          <div class="card-body row bg-primary rounded-4 pt-5 pb-3">
+            <div class="datacardone col-lg-8 text-white">
+              <h3 class="Montserratfont">Emergency Services Available 24/7</h3>
+              <p>
+                Our emergency department is equipped with state-of-the-art
+                technology and staffed by board-certified emergency physicians
+                ready to provide immediate care.
+              </p>
+            </div>
+            <div
+              class="iconecardone col-lg-4 justify-content-center align-items-center"
+            >
+              <button
+                class="btn btn-primary rounded-5 p-3 r fw-bold px-4 bg-white text-primary"
+                type="button"
+              >
+                <span
+                  ><i
+                    class="fa-solid fa-phone fa-2xl"
+                    style="color: #165cdd"
+                  ></i
+                ></span>
+                Call Emergency: (555) 123-4567
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="Services py-5">
+      <div class="container lh-lg">
+        <div class="FeaturedServices text-center">
+          <h2 class="position-relative Montserratfont">Featured Services</h2>
+          <p class="pt-3">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- consultation -->
+    <div class="consultation pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="consultationimage col-lg-8 g-5">
+            <div class="imagegallery position-relative rounded-4 mb-5 ">
+              <div
+                class="care position-absolute bg-white text-primary p-4 rounded-5"
+              >
+                <i class="fa-solid fa-heart-pulse fa-2xl e align-self-end"></i
+                >Emergency Care
+              </div>
+            </div>
+            <h2 class="fw-lighter mb-4 Montserratfont">
+              Comprehensive Healthcare Excellence
+            </h2>
+            <p class="text-dark mb-4">
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia curae donec velit neque.
+            </p>
+            <a href="" class="mb-4">Explore Our Services</a>
+          </div>
+          <div class="consultationdata col-lg-4 d-flex flex-column g-5 ps-5">
+            <div
+              class="infoconsultation row flex-row justify-content-around infoconsultation1 py-5"
+            >
+              <span class="d-inline col-3 pt-3"
+                ><i
+                  class="fa-solid fa-capsules fa-2xl d-inline"
+                  style="color: #164cdd"
+                ></i
+              ></span>
+              <div class="dataconsulation col-9">
+                <h4 class="fs-5 fw-light Montserratfont text-secondary-emphasis">
+                  Dermatology Clinic
+                </h4>
+                <p class="fw-light text-secondary">
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas.
+                </p>
+                <a href="" class="text-decoration-none">Learn Mores</a>
+              </div>
+            </div>
+            <div
+              class="infoconsultation row flex-row justify-content-around infoconsultation1 py-5"
+            >
+              <span class="d-inline col-3 pt-3"
+                ><i
+                  class="fa-solid fa-capsules fa-2xl d-inline"
+                  style="color: #164cdd"
+                ></i
+              ></span>
+              <div class="dataconsulation col-9">
+                <h4 class="fs-5 fw-light text-secondary-emphasis Montserratfont">Surgery Center</h4>
+                <p class="fw-light text-secondary">
+                  Donec rutrum congue leo eget malesuada curabitur arcu erat
+                  accumsan id imperdiet et porttitor at sem.
+                </p>
+                <a href="" class="text-decoration-none">Learn Mores</a>
+              </div>
+            </div>
+            <div
+              class="infoconsultation row flex-row justify-content-around infoconsultation1 py-5"
+            >
+              <span class="d-inline col-3 pt-3">
+                <i
+                  class="fa-solid fa-wave-square fa-2xl d-inline"
+                  style="color: #164cdd"
+                ></i>
+              </span>
+              <div class="dataconsulation col-9">
+                <h4 class="fs-5 fw-light text-secondary-emphasis Montserratfont">Diagnostics Lab</h4>
+                <p class="fw-light text-secondary">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui cras ultricies ligula sed magna.
+                </p>
+                <a href="" class="text-decoration-none">Learn Mores</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fourphoto -->
+    <div class="fourphoto pb-5 mb-5">
+      <div class="container">
+        <div class="row w-100 ">
+          <div class="child child1 col-lg-3 col-md-6 g-5 text-center ">
+            <div class="contentphoto">
+              <img
+                src="./images/vaccination-3.webp"
+                alt=""
+                class="imagerc rounded-circle"
+              />
+              <h4 class="py-3 fs-6 fw-light Montserratfont">Maternal Care</h4>
+              <small class="pb-3 text-secondary"
+                >Expert pregnancy & delivery support</small
+              >
+            </div>
+          </div>
+          <div class="child child2 col-lg-3 col-md-6 g-5 text-center">
+            <div class="contentphoto">
+              <img
+                src="./images/maternal-2.webp"
+                alt=""
+                class="imagerc rounded-circle"
+              />
+              <h4 class="py-3 fs-6 fw-light Montserratfont">Vaccination</h4>
+              <small class="pb-3 text-secondary"
+                >Complete immunization programs
+              </small>
+            </div>
+          </div>
+          <div class="child child3 col-lg-3 col-md-6 g-5 text-center">
+            <div class="contentphoto">
+              <img
+                src="./images/emergency-1.webp"
+                alt=""
+                class="imagerc rounded-circle"
+              />
+              <h4 class="py-3 fs-6 fw-light Montserratfont">Emergency Care</h4>
+              <small class="pb-3 text-secondary"
+                >24/7 critical care services
+              </small>
+            </div>
+          </div>
+          <div class="child child4 col-lg-3 col-md-6 g-5 text-center">
+            <div class="contentphoto">
+              <img
+                src="./images/facilities-6.webp"
+                alt=""
+                class="imagerc rounded-circle"
+              />
+              <h4 class="py-3 fs-6 fw-light Montserratfont">
+                Advanced Technology
+              </h4>
+              <small class="pb-3 text-secondary"
+                >State-of-the-art medical equipment
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Doctor -->
+    <div class="Doctor py-5 mt-5">
+      <div class="container lh-lg">
+        <div class="FeaturedDoctor text-center">
+          <h2 class="position-relative Montserratfont">Featured Services</h2>
+          <p class="pt-3">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Doctor Perfect -->
+    <div class="Perfect pb-5">
+      <div class="container text-center">
+        <div class="contentperdect">
+          <h2 class="fs-1 fw-light Montserratfont">
+            Find Your Perfect Healthcare Provider
+          </h2>
+          <p>
+            Search through our comprehensive directory of experienced medical
+            professionals
+          </p>
+        </div>
+        <div
+          class="shadow rounded-5 p-3 formdoctor row m-auto flex-row w-75 justify-content-between align-items-center text-center"
+        >
+          <div class="doctorname p-3 col-lg-2 rounded-5">
+            <div class="text-secondary inputdoctor d-flex align-items-center">
+              <i class="fa-regular fa-user me-3"></i>
+              <input
+                type="text"
+                placeholder="Enter doctor name"
+                class="border border-0"
+              />
+            </div>
+          </div>
+          <div class="selectone p-3 col-lg-4 d-flex align-items-center">
+            <span class="me-3 text-secondary"
+              ><i class="fa-solid fa-heart-pulse"></i
+            ></span>
+            <select name="cat" id="cat" class="form-select border border-0">
+              <option value="ALL">ALL SPECIALTIES</option>
+              <option value="CARDIOLOGY">CARDIOLOGY</option>
+              <option value="NEUROLOGY">NEUROLOGY</option>
+              <option value="ORTHOPEDICS">ORTHOPEDICS</option>
+              <option value="PEDIATRICS">PEDIATRICS</option>
+              <option value="DERMATOLOGY">DERMATOLOGY</option>
+              <option value="ONCOLOGY">ONCOLOGY</option>
+            </select>
+          </div>
+          <button type="button" class="btn p-3 btn-primary col-lg-3 rounded-5">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span> Find
+            Doctors
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- all doctor -->
+    <div class="alldoctor py-5">
+      <div class="container">
+        <div class="row flex-row justify-content-around">
+          <div class="child child1 col-lg-6 g-5">
+            <div
+              class="card rounded-4 row flex-column justify-content-between align-items-center"
+            >
+              <div class="doctordetail row flex-row mt-3 pb-5 g-2">
+                <div class="image position-relative col-4 g-3">
+                  <img
+                    class="doctorimageafter w-100 rounded-4"
+                    src="./images/staff-2.webp"
+                    alt=""
+                  />
+                  <div class="icongreen position-absolute"></div>
+                </div>
+                <div class="contentdetail col-8 g-3">
+                  <h3 class="Montserratfont fs-5 ">Dr. Amanda Foster</h3>
+                  <span
+                    class="text-primary bg-primary-subtle d-block my-3 CardiologySpecialist rounded-5 p-1"
+                    >Cardiology Specialist</span
+                  >
+                  <span
+                    ><i class="fa-solid fa-award" style="color: #165cdd"></i>14
+                    years experience</span
+                  >
+                </div>
+              </div>
+              <div class="ratedoctor g-2">
+                <div class="star text-warning d-inline me-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="fw-bold">4.9</span>
+                <span class="fw-light">(127 reviews)</span>
+              </div>
+              <div
+                class="bookdoctor row flex-row justify-content-evenly mb-4 g-2"
+              >
+                <button type="button" class="btn btn-outline-dark col-5">
+                  View Details
+                </button>
+                <button type="button" class="btn btn-primary btn-lg col-6">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="child child2 col-lg-6 g-5">
+            <div
+              class="card rounded-4 row flex-column justify-content-between align-items-center"
+            >
+              <div class="doctordetail row flex-row mt-3 pb-5 g-2">
+                <div class="image position-relative col-4 g-3">
+                  <img
+                    class="doctorimageafter w-100 rounded-4"
+                    src="./images/staff-6.webp"
+                    alt=""
+                  />
+                  <div class="iconyellow position-absolute"></div>
+                </div>
+                <div class="contentdetail col-8 g-3">
+                  <h3 class="Montserratfont fs-5">Dr. Marcus Johnson</h3>
+                  <span
+                    class="text-primary bg-primary-subtle d-block my-3 CardiologySpecialist rounded-5 p-1"
+                    >Neurology Expert</span
+                  >
+                  <span
+                    ><i class="fa-solid fa-award" style="color: #165cdd"></i>16
+                    years experience</span
+                  >
+                </div>
+              </div>
+              <div class="ratedoctor g-2">
+                <div class="star text-warning d-inline me-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="fw-bold">4.8</span>
+                <span class="fw-light">(89 reviews)</span>
+              </div>
+              <div
+                class="bookdoctor row flex-row justify-content-evenly mb-4 g-2"
+              >
+                <button type="button" class="btn btn-outline-dark col-5">
+                  View Details
+                </button>
+                <button type="button" class="btn btn-primary btn-lg col-6">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="child child3 col-lg-6 g-5">
+            <div
+              class="card rounded-4 row flex-column justify-content-between align-items-center"
+            >
+              <div class="doctordetail row flex-row mt-3 pb-5 g-2">
+                <div class="image position-relative col-4 g-3">
+                  <img
+                    class="doctorimageafter w-100 rounded-4"
+                    src="./images/staff-4.webp"
+                    alt=""
+                  />
+                  <div class="icongreen position-absolute"></div>
+                </div>
+                <div class="contentdetail col-8 g-3">
+                  <h3 class="Montserratfont fs-5">Dr. Rachel Williams</h3>
+                  <span
+                    class="text-primary bg-primary-subtle d-block my-3 CardiologySpecialist rounded-5 p-1"
+                    >Pediatrics Care</span
+                  >
+                  <span
+                    ><i class="fa-solid fa-award" style="color: #165cdd"></i>11
+                    years experience</span
+                  >
+                </div>
+              </div>
+              <div class="ratedoctor g-2">
+                <div class="star text-warning d-inline me-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="fw-bold">5.0</span>
+                <span class="fw-light">(203 reviews)</span>
+              </div>
+              <div
+                class="bookdoctor row flex-row justify-content-evenly mb-4 g-2"
+              >
+                <button type="button" class="btn btn-outline-dark col-5">
+                  View Details
+                </button>
+                <button type="button" class="btn btn-primary btn-lg col-6">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="child child4 col-lg-6 g-5">
+            <div
+              class="card rounded-4 row flex-column justify-content-between align-items-center"
+            >
+              <div class="doctordetail row flex-row mt-3 pb-5 g-2">
+                <div class="image position-relative col-4 g-3">
+                  <img
+                    class="doctorimageafter w-100 rounded-4"
+                    src="./images/staff-8.webp"
+                    alt=""
+                  />
+                  <div class="icongray position-absolute"></div>
+                </div>
+                <div class="contentdetail col-8 g-3">
+                  <h3 class="Montserratfont fs-5">Dr. David Chen</h3>
+                  <span
+                    class="text-primary bg-primary-subtle d-block my-3 CardiologySpecialist rounded-5 p-1"
+                    >Orthopedic Surgeryt</span
+                  >
+                  <span
+                    ><i class="fa-solid fa-award" style="color: #165cdd"></i>22
+                    years experience</span
+                  >
+                </div>
+              </div>
+              <div class="ratedoctor g-2">
+                <div class="star text-warning d-inline me-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="fw-bold">4.7</span>
+                <span class="fw-light">(156 reviews)</span>
+              </div>
+              <div
+                class="bookdoctor row flex-row justify-content-evenly mb-4 g-2"
+              >
+                <button type="button" class="btn btn-outline-dark col-5">
+                  View Details
+                </button>
+                <button type="button" class="btn btn-primary btn-lg col-6">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="child child5 col-lg-6 g-5">
+            <div
+              class="card rounded-4 row flex-column justify-content-between align-items-center"
+            >
+              <div class="doctordetail row flex-row mt-3 pb-5 g-2">
+                <div class="image position-relative col-4 g-3">
+                  <img
+                    class="doctorimageafter w-100 rounded-4"
+                    src="./images/staff-11.webp"
+                    alt=""
+                  />
+                  <div class="icongreen position-absolute"></div>
+                </div>
+                <div class="contentdetail col-8 g-3">
+                  <h3 class="Montserratfont fs-5">Dr. Victoria Torres</h3>
+                  <span
+                    class="text-primary bg-primary-subtle d-block my-3 CardiologySpecialist rounded-5 p-1"
+                    >Dermatology Care</span
+                  >
+                  <span
+                    ><i class="fa-solid fa-award" style="color: #165cdd"></i>9
+                    years experience</span
+                  >
+                </div>
+              </div>
+              <div class="ratedoctor g-2">
+                <div class="star text-warning d-inline me-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="fw-bold">4.5</span>
+                <span class="fw-light">(74 reviews)</span>
+              </div>
+              <div
+                class="bookdoctor row flex-row justify-content-evenly mb-4 g-2"
+              >
+                <button type="button" class="btn btn-outline-dark col-5">
+                  View Details
+                </button>
+                <button type="button" class="btn btn-primary btn-lg col-6">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="child child6 col-lg-6 g-5">
+            <div
+              class="card rounded-4 row flex-column justify-content-between align-items-center"
+            >
+              <div class="doctordetail row flex-row mt-3 pb-5 g-2">
+                <div class="image position-relative col-4 g-3">
+                  <img
+                    class="doctorimageafter w-100 rounded-4"
+                    src="./images/staff-14.webp"
+                    alt=""
+                  />
+                  <div class="icongreen position-absolute"></div>
+                </div>
+                <div class="contentdetail col-8 g-3">
+                  <h3 class="Montserratfont fs-5">Dr. Benjamin Lee</h3>
+                  <span
+                    class="text-primary bg-primary-subtle d-block my-3 CardiologySpecialist rounded-5 p-1"
+                    >Oncology Treatmentt</span
+                  >
+                  <span
+                    ><i class="fa-solid fa-award" style="color: #165cdd"></i>19
+                    years experience</span
+                  >
+                </div>
+              </div>
+              <div class="ratedoctor g-2">
+                <div class="star text-warning d-inline me-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="fw-bold">4.9</span>
+                <span class="fw-light">(194 reviews)</span>
+              </div>
+              <div
+                class="bookdoctor row flex-row justify-content-evenly mb-4 g-2"
+              >
+                <button type="button" class="btn btn-outline-dark col-5">
+                  View Details
+                </button>
+                <button type="button" class="btn btn-primary btn-lg col-6">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="viewalldoctor mt-5 row m-auto justify-content-center">
+          <button
+            type="button"
+            class="px-4 py-3 fs-6 btn fw-medium btn-outline-primary rounded-5"
+          >
+            View All Doctors
+            <span><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Medical -->
+    <div class="Medical py-5">
+      <div class="container">
+        <div class="row flex-row justify-content-around">
+          <div class="child child11 col-lg-6 text-center text-lg-start">
+            <h2 class="fs-1 fw-light Medicalspace Montserratfont">
+              Excellence in Medical Care, Every Day
+            </h2>
+            <p class="text-secondary fs-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+            <a href="" class="d-block m-5 text-decoration-none"
+              >Schedule Consultation</a
+            >
+            <a href="" class="d-block m-5 text-decoration-none"
+              >Explore Services</a
+            >
+          </div>
+          <div class="child child22 col-lg-6">
+            <img src="./images/facilities-9.webp" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="Features py-5">
+      <div class="container">
+        <div class="row">
+          <div class="child001 child000 col-lg-4 text-center text-lg-start">
+            <div class="card border border-0">
+              <div class="card-body">
+                <i
+                  class="fa-solid fa-check-to-slot fa-2xl fs-1 mb-4"
+                  style="color: #165cdd"
+                ></i>
+                <h3
+                  class="card-subtitle my-3 Montserratfont text-body-secondary"
+                >
+                  Advanced Technology
+                </h3>
+                <p class="card-text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="child002 child000 col-lg-4 text-center text-lg-start">
+            <div class="card border border-0">
+              <div class="card-body">
+                <i
+                  class="fa-solid fa-check-to-slot fa-2xl fs-1 mb-4"
+                  style="color: #165cdd"
+                ></i>
+                <h3
+                  class="card-subtitle Montserratfont my-3 text-body-secondary"
+                >
+                  Advanced Technology
+                </h3>
+                <p class="card-text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="child003 child000 col-lg-4 text-center text-lg-start">
+            <div class="card border border-0">
+              <div class="card-body">
+                <i
+                  class="fa-solid fa-check-to-slot fa-2xl fs-1 mb-4"
+                  style="color: #165cdd"
+                ></i>
+                <h3
+                  class="card-subtitle Montserratfont my-3 text-body-secondary"
+                >
+                  Advanced Technology
+                </h3>
+                <p class="card-text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Assistance -->
+    <div class="Assistance py-5">
+      <div class="container">
+        <div class="row shadow">
+          <div class="Assistancecard col-12 p-5 row text-center text-lg-start">
+            <div class="dataAssistancecard col-lg-8">
+              <h2 class="Montserratfont">Need Immediate Medical Assistance?</h2>
+              <p>
+                Our emergency response team is available around the clock to
+                provide immediate medical support when you need it most.
+              </p>
+            </div>
+            <div
+              class="buttonAssistancecard col-lg-4 align-self-start row justify-content-end"
+            >
+              <button
+                type="button"
+                class="btn btn-primary d-block col-lg-8 mb-4 p-3 fw-bold"
+              >
+                <span><i class="fa-solid fa-phone pe-4"></i></span>(555)
+                123-4567
+              </button>
+              <a
+                href=""
+                class="text-decoration-none col-lg-6 fw-lighte text-secondary fs-6"
+                >Find Location</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="py-5">
+      <div class="container lh-lg">
+        <div class="row">
+          <div class="clinic col-lg-6 g-3 p-4">
+            <div class="contentclinic w-75">
+              <span class="Montserratfont">Clinic</span>
+              <p>
+                Crafting exceptional digital experiences through thoughtful
+                design and innovative solutions that elevate your brand
+                presence.
+              </p>
+              <ul class="clinicul list-unstyled">
+                <li class="">
+                  <span
+                    ><i class="fa-solid fa-location-dot text-primary"></i></span
+                  >123 Creative Boulevard, Design District, NY 10012
+                </li>
+                <li class="">
+                  <span
+                    ><i class="fa-solid fa-location-dot text-primary"></i></span
+                  >+1 (555) 987-6543
+                </li>
+                <li class="">
+                  <span
+                    ><i class="fa-solid fa-location-dot text-primary"></i></span
+                  >hello@designstudio.com
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="moredetailes g-3 col-lg-6 row">
+            <div class="studio col-lg-3 col-6">
+              <h6>Studio</h6>
+              <div class="Studioa">
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+              </div>
+            </div>
+            <div class="studio col-lg-3 col-6">
+              <h6>Studio</h6>
+              <div class="Studioa">
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+              </div>
+            </div>
+            <div class="studio col-lg-3 col-6">
+              <h6>Studio</h6>
+              <div class="Studioa">
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+              </div>
+            </div>
+            <div class="studio col-lg-3 col-6">
+              <h6>Studio</h6>
+              <div class="Studioa">
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+                <a
+                  href=""
+                  class="d-block text-decoration-none text-secondary fw-light"
+                  >Our Story</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

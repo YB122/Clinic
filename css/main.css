@@ -1,0 +1,397 @@
+.Montserratfont {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.latofont {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --main-color: #165cdd;
+  --second-color: #112344;
+  --back-color: #fcfdfe;
+  --other-color: #bcbfc3;
+}
+
+.navbar {
+  background-color: var(--back-color);
+}
+
+#my-home {
+  position: relative;
+}
+
+#my-home::before {
+  content: "";
+  position: absolute;
+  background-color: var(--main-color);
+  width: 70%;
+  height: 3%;
+  top: 100%;
+  left: 15%;
+}
+
+.navbar .navbar-collapse ul .mymain > a {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.navbar .navbar-collapse ul .mymain > a:hover {
+  color: var(--main-color);
+}
+
+.navbar .navbar-collapse ul .mymain > a::before {
+  content: "";
+  position: absolute;
+  background-color: var(--main-color);
+  width: 0%;
+  height: 3%;
+  top: 100%;
+  left: 15%;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .navbar-collapse ul .mymain > a:hover::before {
+  width: 70%;
+}
+
+.navbar .navbar-collapse ul .mymain ul li a {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.navbar .navbar-collapse ul .mymain ul li a:hover {
+  color: var(--main-color);
+}
+
+header {
+  background-color: #dee8f7;
+  /* background-color: #000000; */
+  min-height: 100vh;
+  color: var(--second-color);
+}
+
+.content {
+  padding-top: 15%;
+}
+
+.datacontent h1 {
+  letter-spacing: 1px;
+}
+
+.datacontent h1 span {
+  color: var(--main-color);
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.numberdata span {
+  color: var(--main-color);
+  font-weight: bold;
+  display: block;
+}
+.years,
+.patients,
+.medical {
+  color: gray;
+}
+
+.AdvancedMedicine .AdvancedMedicineimage img {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card1,
+.card2 {
+  transition: transform 1s ease-in-out;
+  -webkit-transition: transform 1s ease-in-out;
+  -moz-transition: transform 1s ease-in-out;
+  -ms-transition: transform 1s ease-in-out;
+  -o-transition: transform 1s ease-in-out;
+}
+
+.card1:hover img,
+.card2:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.AdvancedMedicine .AdvancedMedicineimage:hover img {
+  transform: scale(1.2);
+}
+.para h2 {
+  letter-spacing: 2px;
+}
+
+.para span {
+  color: var(--main-color);
+  font-weight: 400;
+  display: block;
+}
+
+/* Featured */
+.Featured .FeaturedDepartments h2 {
+}
+.Featured .FeaturedDepartments h2::before {
+  content: "";
+  width: 15%;
+  height: 2%;
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1%;
+}
+
+.Featured .FeaturedDepartments h2::after {
+  content: "";
+  width: 5%;
+  height: 10%;
+  background-color: var(--main-color);
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1%;
+}
+
+.cardlist {
+  list-style: none;
+}
+
+.Services .FeaturedServices h2 {
+}
+.Services .FeaturedServices h2::before {
+  content: "";
+  width: 15%;
+  height: 2%;
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1%;
+}
+
+.Services .FeaturedServices h2::after {
+  content: "";
+  width: 5%;
+  height: 10%;
+  background-color: var(--main-color);
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1%;
+}
+
+.consultationimage .imagegallery {
+  background-image:
+    linear-gradient(135deg, #165cdd71, transparent),
+    url("./../images/consultation-4.webp");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+}
+.consultationimage .imagegallery img {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.consultationimage .imagegallery:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.care {
+  top: 10%;
+  left: 10%;
+}
+
+.fourphoto .child.child1,
+.fourphoto .child.child2,
+.fourphoto .child.child3,
+.fourphoto .child.child4 {
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+}
+
+.fourphoto .child.child1:hover,
+.fourphoto .child.child2:hover,
+.fourphoto .child.child3:hover,
+.fourphoto .child.child4:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.Doctor .FeaturedDoctor h2::before {
+  content: "";
+  width: 15%;
+  height: 2%;
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1%;
+}
+
+.Doctor .FeaturedDoctor h2::after {
+  content: "";
+  width: 5%;
+  height: 10%;
+  background-color: var(--main-color);
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1%;
+}
+
+.dotgrenn {
+  top: 78%;
+  left: 80%;
+  background-color: white;
+}
+
+.CardiologySpecialist {
+  width: fit-content;
+}
+
+.viewalldoctor {
+  width: fit-content;
+}
+
+.Medicalspace {
+  letter-spacing: 2px;
+}
+
+.icongreen {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border: 5px solid white;
+  border-radius: 50%;
+  top: 90%;
+  left: 90%;
+}
+.iconyellow {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  border: 5px solid white;
+  border-radius: 50%;
+  top: 90%;
+  left: 90%;
+}
+.icongray {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  border: 5px solid white;
+  border-radius: 50%;
+  top: 90%;
+  left: 90%;
+}
+
+/* .firstw{
+  top: 50%;
+  left: 50%;
+} */
+
+.contentall .content1 {
+  left: 65%;
+  transform: translateX(-10%);
+  -webkit-transform: translateX(-10%);
+  -moz-transform: translateX(-10%);
+  -ms-transform: translateX(-10%);
+  -o-transform: translateX(-10%);
+}
+.contentall .content2 {
+  top: 70%;
+  left: 5%;
+}
+
+.contentall .content111 {
+  top: 5%;
+  left: 70%;
+}
+.contentall .content222 {
+  top: 60%;
+  left: -5%;
+  transform: translate(-10%, 0%);
+  -webkit-transform: translate(-10%, 0%);
+  -moz-transform: translate(-10%, 0%);
+  -ms-transform: translate(-10%, 0%);
+  -o-transform: translate(-10%, 0%);
+}
+
+.innerph {
+  top: 5%;
+  left: 95%;
+  /*background-color: white;
+  */
+  transform: translate(-10%, 0%);
+  -webkit-transform: translate(-10%, 0%);
+  -moz-transform: translate(-10%, 0%);
+  -ms-transform: translate(-10%, 0%);
+  -o-transform: translate(-10%, 0%);
+}
+
+.imagerc {
+  width: 100px;
+  height: 100px;
+}
+
+.Assistance .row {
+  background-color: #d2dbee;
+}
+.Medical,
+.Features,
+.Assistance {
+  background-color: #dee3ee;
+}
+
+.child000 .card{
+  background-color: #dee3ee;
+}
