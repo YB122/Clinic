@@ -174,7 +174,7 @@ This project is open source and available under the [Clinic](https://yb122.githu
 
 **[Your Name]**
 - GitHub: [YB122](@YB122)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/youssef-benyamine-b55a81219/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/posts/youssef-benyamine-b55a81219_webdevelopment-bootstrap-html-activity-7429059806537248769-gSaT)
 
 ## 🙏 Acknowledgments
 
@@ -187,7 +187,7 @@ This project is open source and available under the [Clinic](https://yb122.githu
 
 For questions or feedback, please reach out:
 - Email: youssefbenyamine2eme@gmail.com
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/youssef-benyamine-b55a81219/)
+- LinkedIn: [My LinkedIn](https://www.linkedin.com/in/youssef-benyamine-b55a81219/)
 
 ---
 
